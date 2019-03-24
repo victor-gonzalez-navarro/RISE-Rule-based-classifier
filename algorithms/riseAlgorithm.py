@@ -49,7 +49,6 @@ class riseAlgorithm():
         (precision_final, inst_to_rule, inst_to_rule2) = compute_accuracy(ES, RS, dist_measure, True, N_clases, RS2,
                                                                           self.numoricalatt)
         print('The initial Train accuracy is: ' + str(round(precision_final, 3)))
-
         print('------------IERATION 1------------')
 
         # While Precision_final ≤ Precision_initial
