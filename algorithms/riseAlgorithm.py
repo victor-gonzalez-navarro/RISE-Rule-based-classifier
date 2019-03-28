@@ -8,9 +8,8 @@ class riseAlgorithm():
     distmeasure = None
     tst_labels = None
 
-    def __init__(self, numoricalatt, cut):
+    def __init__(self, numoricalatt):
         self.numoricalatt = numoricalatt
-        self.cut = cut
 
     def fit(self, data, labels):
 
